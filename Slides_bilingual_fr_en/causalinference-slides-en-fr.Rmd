@@ -745,7 +745,7 @@ a column separator -->
 :::
 :::
 
-## Resource \| *Ressource*
+## Resources \| *Ressources supplémentaires*
 
 -   EGAP Methods Guide on Randomization
     (<https://egap.org/resource/10-things-to-know-about-randomization/>)
