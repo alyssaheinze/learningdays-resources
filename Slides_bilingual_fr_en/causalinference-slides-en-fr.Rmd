@@ -80,13 +80,13 @@ a column separator -->
 :::
 
 ::: {.col data-latex="{0.48\\textwidth}"}
--   Les resultats poténtiels
+-   Les résultats potentiels
 
--   L'effet causale est une difference entre des resultats poténtiels
+-   L'effet causal est une différence entre des résultats potentiels
 
 -   Les hypothèses clés pour l'inférence causale
 
--   Les différences entre les études aléotoires et les études observationelles
+-   Les différences entre les études aléatoires et les études observationelles
    
 :::
 :::
@@ -116,9 +116,8 @@ a column separator -->
 -   *Vous assignez de manière aléatoire des sujets aux conditions de
     traitement et de contrôle.*
 
--   Vous comparez les résultats d'unités que sont assigné à condition de
-    traitement de les résultats d'unités que sont assigné à condition de
-    contrôle.
+-   Vous comparez les résultats d'unités qui sont assignées à une condition de
+    traitement et de celles qui sont assignées à une condition de contrôle.
 :::
 :::
 
@@ -142,8 +141,8 @@ a column separator -->
 :::
 
 ::: {.col data-latex="{0.48\\textwidth}"}
-*L'effet causal moyen* de le traitement $T$ sur un résultat $Y$ pour
-pour les unités que vous avez dans votre étude.
+*L'effet causal moyen* du traitement $T$ sur un résultat $Y$ pour
+pour les unités de votre étude.
 
 -   Vous devez définir la condition de contrôle pour définir un effet
     causal.
@@ -153,7 +152,7 @@ pour les unités que vous avez dans votre étude.
 :::
 :::
 
-## What do we mean by "$T$ causes $Y$"? \| *Comment interpréter "X cause Y"*
+## What do we mean by "$T$ causes $Y$"? \| *Comment interpréter "X cause Y"?*
 
 ::: {.cols data-latex=""}
 ::: {.col data-latex="{0.48\\textwidth}"}
@@ -173,7 +172,7 @@ a column separator -->
 :::
 
 ::: {.col data-latex="{0.48\\textwidth}"}
--   Nous utiliserons l'idée contrefactuelle.
+-   Nous utiliserons l'approche contrefactuelle.
 
 -   "T cause Y" est une affirmation sur ce qui n'a pas eu lieu.
 
@@ -184,7 +183,7 @@ a column separator -->
 :::
 :::
 
-## What do we mean by "$T$ causes $Y$"? \| *Comment interpréter "X cause Y"*
+## What do we mean by "$T$ causes $Y$"? \| *Comment interpréter "X cause Y"?*
 
 ::: {.cols data-latex=""}
 ::: {.col data-latex="{0.48\\textwidth}"}
@@ -220,19 +219,19 @@ a column separator -->
 
 ![](../Images/fig01-units.png){width="320"}
 
-## $Y_i(1)$, the outcome each unit would have if treated \| $Y_i(1)$, le resultat qu'on obtiendrait si l'unité recevait le traitement
+## $Y_i(1)$, the outcome each unit would have if treated \| $Y_i(1)$, le résultat qu'on obtiendrait si l'unité recevait le traitement
 
 \centering
 
 ![](../Images/fig02-Y1.png){width="320"}
 
-## $Y_i(0)$, the outcome each unit would have if not treated \| $Y_i(0)$, le resultat qu'on obtiendrait si l'unité recevait le contrôle
+## $Y_i(0)$, the outcome each unit would have if not treated \| $Y_i(0)$, le résultat qu'on obtiendrait si l'unité recevait le contrôle
 
 \centering
 
 ![](../Images/fig03-Y0.png){width="320"}
 
-## Each unit has both $Y_i(1)$ and $Y_i(0)$ \| *Chaque unité a les deux* $Y_i(1)$ and $Y_i(0)$
+## Each unit has both $Y_i(1)$ and $Y_i(0)$ \| *Chaque unité a les deux* $Y_i(1)$ et $Y_i(0)$
 
 \centering
 
@@ -275,7 +274,7 @@ a column separator -->
 :::
 :::
 
-## Fundamental problem of causal inference \| *Problème fondamental de l'inférence causale*
+## Fundamental problem of causal inference \| *Le problème fondamental de l'inférence causale*
 
 ::: {.cols data-latex=""}
 ::: {.col data-latex="{0.48\\textwidth}"}
@@ -313,19 +312,19 @@ a column separator -->
 
 ![](../Images/fig05-Y1.png){width="320"}
 
-## We can take a random sample of these $Y_i(1)$ \| *Sélectons une échantionnage alèatoire de* $Y_i(1)$
+## We can take a random sample of these $Y_i(1)$ \| *Sélectionnons un échantionnage aléatoire de* $Y_i(1)$
 
 \centering
 
 ![](../Images/fig06-y1-sample1.png){width="320"}
 
-## We can take another random sample of these $Y_i(1)$ \| *Sélectons une autre échantionnage alèatoire de* $Y_i(1)$
+## We can take another random sample of these $Y_i(1)$ \| *Sélectionnons un autre échantionnage aléatoire de* $Y_i(1)$
 
 \centering
 
 ![](../Images/fig07-y1-sample2.png){width="320"}
 
-## And another! \| *Et une autre!*
+## And another! \| *Et un autre!*
 
 \centering
 
@@ -337,7 +336,7 @@ a column separator -->
 
 ![](../Images/fig09-y0-novals.png){width="320"}
 
-## And we can take a random sample of these $Y_i(0)$ \| *Sélectons une autre échantionnage alèatoire de* $Y_i(0)$
+## And we can take a random sample of these $Y_i(0)$ \| *Sélectionnons un autre échantionnage aléatoire de* $Y_i(0)$
 
 \centering
 
@@ -361,7 +360,7 @@ a column separator -->
 
 ![](../Images/fig12-randomassignment2.png){width="320"}
 
-## Randomization is powerful \| *Randomisation est puissante*
+## Randomization is powerful \| *Randomiser est puissant*
 
 Average treatment effect / l'effet causal moyen (ATE):
 
@@ -380,13 +379,13 @@ a column separator -->
 :::
 
 ::: {.col data-latex="{0.48\\textwidth}"}
-Nous utilisons deux facts:
+Nous utilisons deux faits:
 
 1.  La moyenne des différences est égale à la différence des moyennes.
 :::
 :::
 
-## Randomization is powerful \| *Randomisation est puissante*
+## Randomization is powerful \| *Randomiser est puissant*
 
 $$Y_i = T_iY_i(1) + (1-T_i)Y_i(0)$$
 $$E_R[\overline{Y_i}|T_i=1]=\overline{Y_i(1)}$$
@@ -416,7 +415,7 @@ a column separator -->
 :::
 :::
 
-## Randomization is powerful \| *Randomisation est puissante*
+## Randomization is powerful \| *Randomiser est puissant*
 
 $$ATE = \overline{\tau_i}= \overline{Y_i(1)-Y_i(0)} = \overline{Y_i(1)}-\overline{Y_i(0)}$$
 $$E_R[\overline{Y_i}|T_i=1]=\overline{Y_i(1)}$$
@@ -443,13 +442,13 @@ a column separator -->
 
 -   $E_R[]$ signifie "moyenne sur des opérations répétées".
 
--   Nous ne obtenons pas $\overline{Y_i(1)}$ exact d'une assignation
-    aléatoire particulière, mais nous pouvons nous attendre
+-   Nous n'obtenons pas exactement $\overline{Y_i(1)}$ pour une assignation
+    aléatoire particulière, mais nous pouvons attendre
     $\overline{Y_i(1)}$ au cours d'expériences répétées.
 :::
 :::
 
-## Randomization is powerful \| *Randomisation est puissante*
+## Randomization is powerful \| *Randomiser est puissant*
 
 ::: {.cols data-latex=""}
 ::: {.col data-latex="{0.48\\textwidth}"}
@@ -467,9 +466,12 @@ a column separator -->
 :::
 
 ::: {.col data-latex="{0.48\\textwidth}"}
--   L'assignation aléatoire crée deux gruppes d'unités qui sont similaires éxcepté qu'une recevra le traitement et l'autre non.  Les différences avant recevoir le traitement ne sont dues que le hasard.
+-   L'assignation aléatoire crée deux groupes d'unités qui sont similaires
+    excepté qu'une recevra le traitement et l'autre non. Les différences avant
+    de recevoir le traitement ne sont dues qu'au hasard.
 
--  Les différences aprés le traitement peuvent étre attribuées du traitement et plutôt que d'autres facteurs.  
+-  Les différences après le traitement peuvent étre attribuées au traitement
+    plutôt qu'à d'autres facteurs.
 :::
 :::
 
@@ -532,7 +534,7 @@ a column separator -->
     -   Aucune unité de l'échantillon expérimental n'est assignée au
         traitement ou au contrôle avec certitude.
 
--   Çela ne signifie pas ni désordoné ni incontrôlé!
+-   Cela ne signifie ni désordonné ni incontrôlé!
 :::
 :::
 
@@ -554,7 +556,7 @@ a column separator -->
 
 ::: {.col data-latex="{0.48\\textwidth}"}
 2.1 La non-interférence -- Le résultat potentiel d'un sujet reflète
-uniquement la reception du traitement par ce sujet. Il n'est pas affecté
+uniquement la réception du traitement par ce sujet. Il n'est pas affecté
 par la façon dont les traitements sont assignés à d'autres sujets.
 
 -   Une violation classique est le cas des vaccins et de leurs effets de
@@ -605,11 +607,11 @@ a column separator -->
 :::
 
 ::: {.col data-latex="{0.48\\textwidth}"}
-3.   L'assignation du traitement n'a aucun effet sur les résultats, sauf
-    par l'effet de recevoir ou non le traitement.
+3.   L'assignation au traitement n'a aucun effet sur les résultats, sauf
+    à travers l'effet de recevoir ou non le traitement.
 
 -   Important de maintenir la symétrie entre les groupes de
-        traitement et de contrôle, éxcepté le traitement.
+        traitement et de contrôle, excepté le traitement.
 :::
 :::
 
@@ -658,8 +660,8 @@ a column separator -->
 ::: {.col data-latex="{0.48\\textwidth}"}
 - Le traitement est aléatoire, ensuite on mesure les résultats.
 
-- Nous pouvons attribuer les différences de résultats au traitement (plus
-        le hasard).
+- Nous pouvons attribuer les différences de résultats au traitement (en plus
+        du hasard).
 :::
 :::
 
@@ -683,7 +685,8 @@ a column separator -->
 ::: {.col data-latex="{0.48\\textwidth}"}
 - Le traitement n'est pas assigné de manière aléatoire. Il est observé, mais pas manipulé.
    
-- Les différences peuvent être dues à des différences sous-jacentes (biais de sélection) ou au traitement (plus le hasard).  Il est souvent très difficile à dire.
+- Les différences peuvent être dues à des différences sous-jacentes (biais de sélection)
+    ou au traitement (plus le hasard).  C'est souvent très difficile à dire.
   
 :::
 :::
@@ -708,9 +711,10 @@ a column separator -->
 :::
 
 ::: {.col data-latex="{0.48\\textwidth}"}
-- La randomisation apporte une validité interne élevée à une étude - nous avons appris l'effet causal du traitement sur le résultat avec un certain niveau de confiance.
+- La randomisation apporte une validité interne élevée à une étude
+    -- nous avons appris l'effet causal du traitement sur le résultat avec un certain niveau de confiance.
 
-- Les études observationelles doivent invoquer d'autres hypothèses fortes pour faire la même affirmation d'un effet causal.
+- Les études observationelles doivent invoquer d'autres hypothèses fortes pour faire la même affirmation à propos d'un effet causal.
 
 :::
 :::
