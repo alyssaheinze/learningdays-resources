@@ -361,7 +361,7 @@ a column separator -->
 
 ## Randomization is powerful \| *Randomiser est puissant*
 
-Average treatment effect / l'effet causal moyen (ATE):
+Average treatment effect / l'effet moyen du traitement (ATE):
 
 $$ATE = \overline{\tau_i}= \overline{Y_i(1)-Y_i(0)} = \overline{Y_i(1)}-\overline{Y_i(0)}$$
 
@@ -378,7 +378,7 @@ a column separator -->
 :::
 
 ::: {.col data-latex="{0.48\\textwidth}"}
-Nous utilisons deux faits:
+Nous appuyons sur deux faits:
 
 1.  La moyenne des différences est égale à la différence des moyennes.
 :::
@@ -405,7 +405,7 @@ a column separator -->
 :::
 
 ::: {.col data-latex="{0.48\\textwidth}"}
-2.  Parce que ces unités ont été assignées de manière aléatoire au
+2.  Parce que les unités ont été assignées de manière aléatoire au
     traitement, $Y_i=Y_i(1)$ pour les unités traitées représentent les
     $Y_i(1)$ pour toutes nos unités. (Ce que nous observons est $Y_i$.)
 
@@ -441,8 +441,8 @@ a column separator -->
 
 -   $E_R[]$ signifie "moyenne sur des opérations répétées".
 
--   Nous n'obtenons pas exactement $\overline{Y_i(1)}$ pour une assignation
-    aléatoire particulière, mais nous pouvons attendre
+-   Nous n'obtenons pas exactement $\overline{Y_i(1)}$ d'une assignation
+    aléatoire particulière, mais nous pouvons nous attendre à
     $\overline{Y_i(1)}$ au cours d'expériences répétées.
 :::
 :::
@@ -466,10 +466,10 @@ a column separator -->
 
 ::: {.col data-latex="{0.48\\textwidth}"}
 -   L'assignation aléatoire crée deux groupes d'unités qui sont similaires
-    excepté qu'une recevra le traitement et l'autre non. Les différences avant
+    excepté qu'un recevra le traitement et l'autre non. Les différences entre les groupes avant
     de recevoir le traitement ne sont dues qu'au hasard.
 
--  Les différences après le traitement peuvent étre attribuées au traitement
+-  Les différences entre les groupes après le traitement peuvent étre attribuées au traitement
     plutôt qu'à d'autres facteurs.
 :::
 :::
@@ -498,7 +498,7 @@ a column separator -->
 Nous avons besoin de deux hypothèses clés pour les experiences
 aléatoires:
 
-1.  L'assignation aléatoire de traitement.
+1.  L'assignation aléatoire du traitement.
 
 2.  L'hypothèse SUTVA (Hypothèse stable de la valeur de traitement d'une
     unité).
@@ -507,7 +507,7 @@ aléatoires:
 :::
 :::
 
-## Core assumption 1: Random assignment of treatment \| *Hypothèse clé 1: L'assignation aléatoire de traitement*
+## Core assumption 1: Random assignment of treatment \| *Hypothèse clé 1: L'assignation aléatoire du traitement*
 
 ::: {.cols data-latex=""}
 ::: {.col data-latex="{0.48\\textwidth}"}
@@ -556,7 +556,7 @@ a column separator -->
 ::: {.col data-latex="{0.48\\textwidth}"}
 2.1 La non-interférence -- Le résultat potentiel d'un sujet reflète
 uniquement la réception du traitement par ce sujet. Il n'est pas affecté
-par la façon dont les traitements sont assignés à d'autres sujets.
+par le statut du traitement des autres sujets.
 
 -   Une violation classique est le cas des vaccins et de leurs effets de
     contamination.
@@ -610,7 +610,7 @@ a column separator -->
     à travers l'effet de recevoir ou non le traitement.
 
 -   Important de maintenir la symétrie entre les groupes de
-        traitement et de contrôle, excepté le traitement.
+        traitement et de contrôle, excepté le statut du traitement.
 :::
 :::
 
@@ -657,7 +657,7 @@ a column separator -->
 :::
 
 ::: {.col data-latex="{0.48\\textwidth}"}
-- Le traitement est aléatoire, ensuite on mesure les résultats.
+- Le traitement est assigné de manière aléatoire, ensuite on mesure les résultats.
 
 - Nous pouvons attribuer les différences de résultats au traitement (en plus
         du hasard).
@@ -685,7 +685,7 @@ a column separator -->
 - Le traitement n'est pas assigné de manière aléatoire. Il est observé, mais pas manipulé.
    
 - Les différences peuvent être dues à des différences sous-jacentes (biais de sélection)
-    ou au traitement (plus le hasard).  C'est souvent très difficile à dire.
+    ou au traitement (plus le bruit).  C'est souvent très difficile à dire.
   
 :::
 :::
