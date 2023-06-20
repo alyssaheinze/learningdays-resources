@@ -60,7 +60,7 @@ editor_options:
 # library(rcompanion) ## for pairwisePermutationTest()
 ```
 
-## Key points for this lecture \| *Points clés de cette conférence*
+## Key points for this lecture \| *Points clés du cours*
 
 ::: {.cols data-latex=""}
 ::: {.col data-latex="{0.48\\textwidth}"}
@@ -111,17 +111,17 @@ a column separator -->
 :::
 
 ::: {.col data-latex="{0.48\\textwidth}"}
--   Vous avez une traitement.
+-   Vous avez un traitement.
 
 -   *Vous assignez de manière aléatoire des sujets aux conditions de
     traitement et de contrôle.*
 
--   Vous comparez les résultats d'unités qui sont assignées à une condition de
-    traitement et de celles qui sont assignées à une condition de contrôle.
+-   Vous comparez les résultats des unités qui sont assignées au groupe de
+    traitement et de celles qui sont assignées au groupe de contrôle.
 :::
 :::
 
-## What can you learn from an experiment? \|
+## What can you learn from an experiment? \| *Qu'apprendre d'une expérience?*
 
 ::: {.cols data-latex=""}
 ::: {.col data-latex="{0.48\\textwidth}"}
@@ -144,7 +144,7 @@ a column separator -->
 *L'effet causal moyen* du traitement $T$ sur un résultat $Y$ pour
 pour les unités de votre étude.
 
--   Vous devez définir la condition de contrôle pour définir un effet
+-   Vous devez définir la condition de traitement et de contrôle pour définir un effet
     causal.
 
 -   Les unités de votre étude peuvent ou non être représentatives d'une
@@ -174,12 +174,12 @@ a column separator -->
 ::: {.col data-latex="{0.48\\textwidth}"}
 -   Nous utiliserons l'approche contrefactuelle.
 
--   "T cause Y" est une affirmation sur ce qui n'a pas eu lieu.
+-   "$T$ cause $Y$" est une affirmation sur ce qui n'a pas eu lieu.
 
-    -   "Sans T, il n'y a pas de Y."
+    -   "Si $T$ n'avait pas été donné, il n'y aurait pas de $Y$."
 
-    -   "Avec T, la probabilité de Y est plus élevée qu'elle ne le
-        serait sans T."
+    -   "Avec $T$, la probabilité de $Y$ est plus élevée qu'elle ne le
+        serait sans $T$."
 :::
 :::
 
@@ -201,17 +201,17 @@ a column separator -->
 :::
 
 ::: {.col data-latex="{0.48\\textwidth}"}
--   "T cause Y" nécessite un *contexte*.
+-   "$T$ cause $Y$" nécessite un *contexte*.
 
-    -   Les petites salles de classe améliorent les résultats mais
+    -   Les petites salles de classe améliorent les résultats des examens mais
         nécessitent des enseignants expérimentés et un financement
         adapté.
 
--   "T cause Y" n'implique pas nécessairement que W ne cause pas Y.
+-   "$T$ cause $Y$" n'implique pas nécessairement que $W$ ne cause pas Y.
 :::
 :::
 
-# Learning the average causal effect from an experiment \| *Comment apprendre l'effet moyen d'une expérience aléatoires*
+# Learning the average causal effect from an experiment \| *Comment apprendre l'effet causal moyen d'une expérience aléatoire*
 
 ## We have 12 units \| *Nous avons 12 unités*
 
@@ -231,13 +231,13 @@ a column separator -->
 
 ![](../Images/fig03-Y0.png){width="320"}
 
-## Each unit has both $Y_i(1)$ and $Y_i(0)$ \| *Chaque unité a les deux* $Y_i(1)$ et $Y_i(0)$
+## Each unit has both $Y_i(1)$ and $Y_i(0)$ \| *Chaque unité a à la fois $Y_i(1)$ et $Y_i(0)$
 
 \centering
 
 ![](../Images/fig02-Y1.png){width="220"}![](../Images/fig03-Y0.png){width="220"}
 
-## So each unit has a treatment effect $\tau_i = Y_i(1) - Y_i(0)$ \| *Alors chaque unité a un effet de traitement* $\tau_i = Y_i(1) - Y_i(0)$
+## So each unit has a treatment effect $\tau_i = Y_i(1) - Y_i(0)$ \| *Alors, pour chaque unité, il y a un effet de traitement* $\tau_i = Y_i(1) - Y_i(0)$
 
 \centering
 
@@ -294,8 +294,7 @@ a column separator -->
 
 ::: {.col data-latex="{0.48\\textwidth}"}
 -   Nous ne pouvons pas mesurer l'effet causal au niveau individuel, car
-    nous ne pouvons pas observer à la fois $Y_i(1)$ et $Y_i(0)$ en même
-    temps.
+    nous ne pouvons pas observer à la fois $Y_i(1)$ et $Y_i(0)$ pour un même individu.
 
 -   Mais tout n'est pas perdu.
 
@@ -312,13 +311,13 @@ a column separator -->
 
 ![](../Images/fig05-Y1.png){width="320"}
 
-## We can take a random sample of these $Y_i(1)$ \| *Sélectionnons un échantionnage aléatoire de* $Y_i(1)$
+## We can take a random sample of these $Y_i(1)$ \| *Sélectionnons un échantillon aléatoire de* $Y_i(1)$
 
 \centering
 
 ![](../Images/fig06-y1-sample1.png){width="320"}
 
-## We can take another random sample of these $Y_i(1)$ \| *Sélectionnons un autre échantionnage aléatoire de* $Y_i(1)$
+## We can take another random sample of these $Y_i(1)$ \| *Sélectionnons un autre échantillon aléatoire de* $Y_i(1)$
 
 \centering
 
@@ -336,7 +335,7 @@ a column separator -->
 
 ![](../Images/fig09-y0-novals.png){width="320"}
 
-## And we can take a random sample of these $Y_i(0)$ \| *Sélectionnons un autre échantionnage aléatoire de* $Y_i(0)$
+## And we can take a random sample of these $Y_i(0)$ \| *Sélectionnons un autre échantillon aléatoire de* $Y_i(0)$
 
 \centering
 
